@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnectWebApi", "PharmacyConnectWebApi\PharmacyConnectWebApi.csproj", "{B1B1CB12-C9ED-4416-9DC4-991C439FC955}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnectWebApi", "PharmacyConnectWebApi\PharmacyConnectWebApi.csproj", "{6741F8DA-3554-473B-AF72-C20AF256D1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnectWebApi.Tests", "PharmacyConnectWebApi.Tests\PharmacyConnectWebApi.Tests.csproj", "{47EF5A17-A4A9-4A2B-B82A-C2C189238FC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnectWebApi.Tests", "PharmacyConnectWebApi.Tests\PharmacyConnectWebApi.Tests.csproj", "{28D94F71-C63F-4250-854A-AE1735E772C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B1B1CB12-C9ED-4416-9DC4-991C439FC955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B1B1CB12-C9ED-4416-9DC4-991C439FC955}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B1B1CB12-C9ED-4416-9DC4-991C439FC955}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B1B1CB12-C9ED-4416-9DC4-991C439FC955}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47EF5A17-A4A9-4A2B-B82A-C2C189238FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47EF5A17-A4A9-4A2B-B82A-C2C189238FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47EF5A17-A4A9-4A2B-B82A-C2C189238FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47EF5A17-A4A9-4A2B-B82A-C2C189238FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6741F8DA-3554-473B-AF72-C20AF256D1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6741F8DA-3554-473B-AF72-C20AF256D1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6741F8DA-3554-473B-AF72-C20AF256D1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6741F8DA-3554-473B-AF72-C20AF256D1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D94F71-C63F-4250-854A-AE1735E772C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D94F71-C63F-4250-854A-AE1735E772C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D94F71-C63F-4250-854A-AE1735E772C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D94F71-C63F-4250-854A-AE1735E772C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
