@@ -1,8 +1,8 @@
-using Microsoft.Practices.Unity;
 using System.Web.Http;
+using Microsoft.Practices.Unity;
 using Unity.WebApi;
 
-namespace PharmacyConnectWebApi
+namespace PharmacyConnect.WebApi
 {
     public static class UnityConfig
     {
