@@ -13,7 +13,7 @@ namespace PharmacyConnect.PharmacyAccessorService
     {
         #region IPharmacyManagementSoftwareResolver Members
 
-        public IPharmacyManagementSoftwareAdapter GetPmsAdapterById(string id)
+        public IPharmacyManagementSoftwareAdapter GetAdapterById(string id)
         {
             if (string.IsNullOrEmpty(id))
             {

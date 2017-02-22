@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A2F9329E-7B4E-4E95-A778-072797F35ED5}</ProjectGuid>
+    <ProjectGuid>{04EDB39D-F0AE-41FA-B48C-59F3D09CE9B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PharmacyConnect.PharmacyAccessorService</RootNamespace>
-    <AssemblyName>PharmacyConnect.PharmacyAccessorService</AssemblyName>
+    <RootNamespace>PharmacyConnect.Common</RootNamespace>
+    <AssemblyName>PharmacyConnect.Common</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,14 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.ServiceModel.Web" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,21 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IPharmacyManagementSoftwareAdapter.cs" />
-    <Compile Include="Interfaces\IPharmacyManagementSoftwareResolver.cs" />
-    <Compile Include="Models\PharmacyManagementSoftwareIds.cs" />
-    <Compile Include="PharmacyManagementSoftwareResolver.cs" />
+    <Compile Include="Models\RxRefillResultModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PharmacyAdapters\Rx30Adapter.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PharmacyConnect.Common\PharmacyConnect.Common.csproj">
-      <Project>{04edb39d-f0ae-41fa-b48c-59f3d09ce9b5}</Project>
-      <Name>PharmacyConnect.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

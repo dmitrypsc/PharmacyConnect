@@ -4,7 +4,7 @@
     {
         #region Public Methods
 
-        IPharmacyManagementSoftwareAdapter GetPmsAdapterById(string id);
+        IPharmacyManagementSoftwareAdapter GetAdapterById(string id);
 
         #endregion
     }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnectWebApi.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnect.PharmacyAccessorService", "PharmacyConnect.PharmacyAccessors\PharmacyConnect.PharmacyAccessorService.csproj", "{A2F9329E-7B4E-4E95-A778-072797F35ED5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyConnect.Common", "PharmacyConnect.Common\PharmacyConnect.Common.csproj", "{04EDB39D-F0AE-41FA-B48C-59F3D09CE9B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A2F9329E-7B4E-4E95-A778-072797F35ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F9329E-7B4E-4E95-A778-072797F35ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F9329E-7B4E-4E95-A778-072797F35ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EDB39D-F0AE-41FA-B48C-59F3D09CE9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EDB39D-F0AE-41FA-B48C-59F3D09CE9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EDB39D-F0AE-41FA-B48C-59F3D09CE9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EDB39D-F0AE-41FA-B48C-59F3D09CE9B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
